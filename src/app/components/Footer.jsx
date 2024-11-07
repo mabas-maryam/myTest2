@@ -1,9 +1,8 @@
 import React from 'react';
 import { FaDiscord } from 'react-icons/fa';
 import { IoLogoYoutube } from 'react-icons/io5';
-import { RxHamburgerMenu } from 'react-icons/rx';
 import Image from "next/image";
-import Logo from "@/public/assets/Logo.svg";
+import Logo from "../../../public/assets/Logo.svg";
 
 const footerSections = [
   {

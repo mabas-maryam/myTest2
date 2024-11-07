@@ -1,8 +1,8 @@
 "use client";
 import * as Accordion from "@radix-ui/react-accordion";
-import PlusIcon from "../../public/assets/Plus.svg";
+import PlusIcon from "../../../public/assets/Plus.svg";
 import Image from "next/image";
-import Minus from "../../public/assets/Minus.svg";
+import Minus from "../../../public/assets/Minus.svg";
 import { useState } from "react";
 const items = [
   {

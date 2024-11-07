@@ -1,10 +1,6 @@
-import { BsFillLightningChargeFill } from "react-icons/bs";
-import { PiSparkleFill } from "react-icons/pi";
-import { IoIosLock } from "react-icons/io";
-import { FaHeart } from "react-icons/fa";
-import Avatar from "@/app/components/common/Avatar";
-import Star from "@/public/assets/star.svg";
 import Image from "next/image";
+import Avatar from "./common/Avatar";
+import Star from "../../../public/assets/star.svg";
 
 export default function Clients() {
     const sections = [
