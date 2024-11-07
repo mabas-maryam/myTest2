@@ -3,8 +3,8 @@ import Hero from "./components/Hero";
 import Features from "./components/Features";
 import Faq from "./components/Faq";
 import Footer from "./components/Footer";
-import Video from "@/app/components/Video";
-import Clients from "@/app/components/Clients";
+import Video from "./components/Video";
+import Clients from "./components/Clients";
 
 export default function Home() {
   return (

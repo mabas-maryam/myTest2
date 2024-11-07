@@ -1,5 +1,5 @@
 import Image from "next/image";
-import NoAvatar from "../../../public/assets/NoAvatar.svg"
+import NoAvatar from "../../../../public/assets/NoAvatar.svg"
 
 export default function Avatar ({ src = "", customClassName = '' }){
 

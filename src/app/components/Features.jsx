@@ -1,14 +1,8 @@
 import Image from "next/image";
-import Feature1 from "../../public/assets/feature-1.svg";
-import Star from "../../public/assets/star.svg";
-import Feature3 from "../../public/assets/feature-3.svg";
-import Check from "../../public/assets/check.svg";
-import bluebutton from "../../public/assets/blue-button.svg";
-import greenButton from "../../public/assets/green-button.svg";
-import pinkButton from "../../public/assets/pink-button.svg";
-import Link from "next/link";
-import CustomInput from "@/app/components/common/CustomInput";
-import CustomButton from "@/app/components/common/CustomButton";
+import Feature1 from "../../../public/assets/feature-1.svg";
+import Star from "../../../public/assets/star.svg";
+import CustomButton from "./common/CustomButton";
+
 const Features = () => {
   return (
     <div className="bg-white p-[64px]" id="features">

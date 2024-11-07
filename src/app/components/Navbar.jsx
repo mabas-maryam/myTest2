@@ -1,11 +1,10 @@
 "use client";
 import Image from "next/image";
-import Logo from "../../public/assets/Logo.svg";
-import User from "../../public/assets/User.svg";
-import Menu from "../../public/assets/Menu.svg";
+import Logo from "../../../public/assets/Logo.svg";
+import Menu from "../../../public/assets/Menu.svg";
 import Link from "next/link";
 import { useState } from "react";
-import CustomButton from "@/app/components/common/CustomButton";
+import CustomButton from "./common/CustomButton";
 
 const navLinks = [
   { name: "Home", link: "#home" },
