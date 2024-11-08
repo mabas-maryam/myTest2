@@ -1,5 +1,8 @@
 "use client";
 
+import Image from "next/image";
+import video1 from "@/public/assets/video1.jpeg"
+
 const Video = () => {
 
   return (
@@ -12,11 +15,12 @@ const Video = () => {
                 Innovative Solutions for Modern Enterprises
             </h2>
         </div>
-      <div className="w-1/2">
-          <video className="w-full h-auto border border-gray-200 rounded-lg" controls>
+      <div className="w-[1072px] h-[538px]">
+          {/* <video className="w-full h-auto border border-gray-200 rounded-lg" controls>
               <source src="https://www.youtube.com/watch?v=Zq5fmkH0T78" type="video/mp4" />
               Your browser does not support the video tag.
-          </video>
+          </video> */}
+          <Image className="border border-gray-600 " src={video1} alt="video Image" type= 'video/mp4'/>
       </div>
     </div>
   );

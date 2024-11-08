@@ -6,29 +6,32 @@ import Minus from "../../../public/assets/Minus.svg";
 import { useState } from "react";
 const items = [
   {
-    question: "Ut enim ad minima veniam, quis nostrum exercitationem ullam?",
-    answer:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.",
+    question: "What makes your services unique?",
   },
   {
-    question: "Ut enim ad minima veniam, quis nostrum exercitationem ullam?",
+    question: "How do you ensure quality?",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.",
+      "Quality assurance is at the core of our operations. We employ rigorous testing and feedback loops to refine our services, ensuring they consistently meet our high standards.",
   },
   {
-    question: "Ut enim ad minima veniam, quis nostrum exercitationem ullam?",
+    question: "What industries do you serve?",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.",
+      "We proudly serve a diverse range of industries including finance, technology, healthcare, and education, providing customized solutions for each sector's unique challenges.",
   },
   {
-    question: "Ut enim ad minima veniam, quis nostrum exercitationem ullam?",
+    question: "Can you provide client testimonials?",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.",
+      "Absolutely! We have numerous testimonials from satisfied clients who can attest to the effectiveness and quality of our services. We are happy to share their experiences.",
   },
   {
-    question: "Ut enim ad minima veniam, quis nostrum exercitationem ullam?",
+    question: "What is your pricing structure?",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.",
+      "Our pricing is competitive and transparent, with options tailored to fit various budgets without compromising on the quality of service delivered.",
+  },
+  {
+    question: "How can we get in touch?",
+    answer:
+      "Getting in touch is easy! You can reach us through our website's contact form, email, or by calling our dedicated support line.",
   },
 ];
 const Faq = () => {
@@ -44,7 +47,7 @@ const Faq = () => {
   };
 
   return (
-    <div className="bg-white text-center text-black py-14 sm:pt-32" id="faq">
+    <div className="bg-[#FCFCFC] text-center text-black py-14 sm:pt-32" id="faq">
       <div className="flex flex-col container lg:gap-x-6">
         <div className="">
           <h1 className="text-medium text-[30px] lg:text-[42px] mb-4">
